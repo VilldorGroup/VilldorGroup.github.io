@@ -1,0 +1,179 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { 
+    margin:0;
+    padding:0;
+    height:100%;
+ }  
+    
+* {
+  box-sizing:border-box;
+}
+
+.main {
+ margin-left: -70px;
+    margin-right: -70px;
+  min-height:100%;
+  margin-top: 20px;
+  padding: 100px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #966F33;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+    line-height: 50px;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Didot";
+  font-style: normal;
+  font-variant: normal;
+  
+}
+
+.navbar a:hover {
+  background: #966F33;
+  color: black;
+}
+
+.navbar-right {
+  float: right;
+}     
+ .logo {
+display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 80px;
+    margin-right: -5px;
+    margin-top: -25px; 
+    float: left;
+    }
+ .footer {
+   background-color: #966F33;
+   margin-bottom: 0;
+   overflow:hidden;
+   width:100%;
+   height:30px; 
+}
+    .footertext {
+        text-align: center;
+        line-height: 15px;
+        margin-top: 10px;
+        font-family: "Didot";
+        letter-spacing: 2px;
+        font-size: 14px;
+        color: white;      
+    }
+    .footertext1 {
+        float: right;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-family: "Didot";
+        letter-spacing: 2px;
+        font-size: 14px;
+        color: white;   
+    }
+    
+    h2 {
+line-height: 5px;
+}
+    h1 {
+        font-size: 24px;
+    
+    }
+   
+.maintext{
+    font-family: "Montserrat",sans-serif;
+    font-style: normal;
+    color: #9b9b9b;    
+    }
+    
+#tag {
+       font-family: "Montserrat",sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+       position: relative;
+    }    
+    
+    #link { color: white; }
+     #link {text-decoration: none;}
+
+a, a:visited { 
+    outline: none; 
+    text-decoration: none;
+    color: inherit;
+    
+    }
+  
+.column1 {
+  float: left;
+  width: 40%;
+  padding: 30px;
+}
+ .column2 {
+  float: right;
+  width: 60%;
+  padding: 30px;
+}
+
+/* Clearing floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}  
+</style>
+<body>    
+<div class="navbar">
+<a href="main.html"><img class="logo" src="logo.jpg"></a>
+    <a href="about.html">About</a>
+    <a href="commercial.html">Commercial</a>
+    <a href="residential.html">Residential</a>
+    <a href="contactus.html">Contact Us</a>
+    <div class= "navbar-right">
+     <a href="main.html">EN</a>
+    <a href="main.html">MNE</a>
+    <a href="main.html">RU</a>
+ </div>
+</div>
+<div class="main">
+<img src="residential.jpg" style="width:100%" height="550">
+<div class="row">
+  <div class="column1" >
+    <h1 style="font-size: 30px; color: red">About</h1>
+  </div>
+  <div class="column2">
+    <h1>COMPANY VILLDOR o.o.o. from Moscow was founded in 2007</h1>
+    <p>The main activity is construction work, primarily interior design and carpentry on the facades of stained glass, windows and doors. The church company in Montenegro villldor d.o.o represents the realtor for the IGALO GARDEN complex and will be the contractor on this project.</p>
+  </div>
+</div>
+
+
+    
+    
+    
+    </div>
+ 
+<div class="footer">
+      <h2 class="footertext">Villdor    |    <a id="link" href="mailto:villdor@mail.ru">villdor@mail.ru</a>    |    +381616104827</h2>
+    <h2 class="footertext1"> </h2> 
+    <div style="clear: both"></div>
+    </div>
+    </body>
+    </head>
+</html>
